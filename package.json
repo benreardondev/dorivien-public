@@ -1,0 +1,14 @@
+{
+  "name": "dorivien",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check src_engine.mjs && node --check public/app.js && node --check public/widget.js && node --check public/status.js && node --check tests/http-smoke.mjs",
+    "test": "npm run check && node tests/run-tests.mjs && node tests/http-smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

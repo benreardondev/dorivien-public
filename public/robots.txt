@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /widget.html
+Sitemap: https://dorivien-fresh.onrender.com/sitemap.xml
